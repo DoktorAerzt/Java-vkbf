@@ -1,0 +1,8 @@
+
+public class erste_aufgabe {
+	public static void main (String[] args) {
+		
+		System.out.print("Ich herrsche!");
+	}
+
+}

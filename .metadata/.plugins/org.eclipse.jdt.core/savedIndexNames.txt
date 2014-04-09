@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\Michael\Documents\GitHub\Java-vkbf\.metadata\.plugins\org.eclipse.jdt.core
+2772854021.index
+3749952430.index

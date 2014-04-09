@@ -1,0 +1,27 @@
+
+public class sechste_aufgabe_phraseomat {
+	public static void main (String[] args) {
+		
+		//drei Wortgruppen erstellen, aus denen ausgeählt wird
+		String[] wortListeEins = { "verlässliche" , "erfolgsorientierte" , "webbasiert", "allumfassende", "clevere", "kundenorientierte", "pfadkritische", "dynamische", "konkurrenzfähige", "verteilte", "zielgerichtete"};
+		String[] wortListeZwei = { "gepowerte ", "haftende ", "Mehrwert-", "zentrierte ", "geclusterte ", "proaktive ", "Out-of-the-Box-", "positionsierte ", "vernetzte ", "fokussierte ", "kraftvolle ", "geordnete ", "geteilte ", "kooperative ", "beschleunigte ", "Multi-Tier-", "Enterprise-", "B2B-", "Frontend-"};
+		String[] wortListeDrei = {"Schicht", "Endstufe", "Lösung", "Architektur", "Kernkompetenz", "Strategie", "Kooperation", "Ausrichtung", "Räumlichkeit", "Vision", "Dimension", "Mission"};
+		
+		// ermitteln, wie viele Wörter sich in jeder Liste befinden
+		int einsLänge = wortListeEins.length;
+		int zweiLänge = wortListeZwei.length;
+		int dreiLänge = wortListeDrei.length;
+		
+		//drei Zufallszahlen generieren, um Wörter aus den Listen herauszuziehen
+		int rand1 = (int) (Math.random() * einsLänge);
+		int rand2 = (int) (Math.random() * zweiLänge);
+		int rand3 = (int) (Math.random() * dreiLänge);
+		
+		//eine Phrase zusammenbauen
+		String phrase = wortListeEins[rand1] + " " + wortListeZwei[rand2] + wortListeDrei[rand3];
+		
+		//eine Phrase ausgeben
+		System.out.println("Was wir brauchen, ist eine " + phrase);
+	}
+
+}
