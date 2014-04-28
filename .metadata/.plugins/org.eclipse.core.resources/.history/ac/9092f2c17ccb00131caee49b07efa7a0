@@ -1,0 +1,37 @@
+package erste_aufgabe;
+
+public class EinfachesDotCom {
+
+	private int anzahlTreffer = 0;
+	private int[] Zellorte = {0};
+	public void setZellorte(int[] orte) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i == orte.length; i = i + 1)
+		{
+			Zellorte[i] = orte[i];
+		}
+	}
+
+	public String prüfDich(String stringTipp) {
+		// TODO Auto-generated method stub
+		int tipp = Integer.parseInt(stringTipp);
+		
+				String ergebnis = "Vorbei";
+				
+				for (int zelle : Zellorte) {
+					if (tipp == zelle) {
+						ergebnis = "Treffer";
+						anzahlTreffer++;
+						break;
+					}
+				}
+				if (anzahlTreffer == Zellorte.length) {
+					ergebnis = "Versenkt";
+					
+				}
+				System.out.println(ergebnis);
+				return ergebnis;
+	}
+}
+
+

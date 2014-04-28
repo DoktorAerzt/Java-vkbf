@@ -1,9 +1,0 @@
-package erste_aufgabe;
-
-public class HundTestlauf {
-	
-	public static void main (String[] args) {
-		// hier kommt der Hund-Testcode hin
-	}
-
-}
