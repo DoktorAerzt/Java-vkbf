@@ -22,19 +22,19 @@
 		<item value="400" key="height"/>
 		<item value="600" key="width"/>
 	</section>
-	<section name="NewClassWizardPage">
-		<item value="false" key="create_constructor"/>
-		<item value="true" key="create_unimplemented"/>
-	</section>
-	<section name="quick_assist_proposal_size">
-	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="false" key="renameSubpackages"/>
-		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="false" key="renameSubpackages"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 		<item value="false" key="updateSimilarElements"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="javadoc">
 		<item value="false" key="nodeprecatedlist"/>
@@ -58,36 +58,36 @@
 		<section name="projects">
 			<section name="Kapitel 1">
 				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 1\doc" key="destdir"/>
-				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 1\javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 1\javadoc.xml" key="antpath"/>
 			</section>
 			<section name="Kapitel 2">
 				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 2\doc" key="destdir"/>
-				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 2\javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 2\javadoc.xml" key="antpath"/>
 			</section>
 			<section name="Kapitel 3">
 				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 3\doc" key="destdir"/>
-				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 3\javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\Kapitel 3\javadoc.xml" key="antpath"/>
 			</section>
 			<section name="RemoteSystemsTempFiles">
 				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\RemoteSystemsTempFiles\doc" key="destdir"/>
-				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
 			</section>
 			<section name="mods">
 				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\mods\doc" key="destdir"/>
-				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\mods\javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="C:\Users\Michael\Documents\GitHub\Java-vkbf\mods\javadoc.xml" key="antpath"/>
 			</section>
 		</section>
 	</section>
 	<section name="JavadocWizardDialog">
 		<item value="616" key="DIALOG_WIDTH"/>
 		<item value="118" key="DIALOG_Y_ORIGIN"/>
-		<item value="615" key="DIALOG_HEIGHT"/>
 		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="615" key="DIALOG_HEIGHT"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewPackageWizardPage">

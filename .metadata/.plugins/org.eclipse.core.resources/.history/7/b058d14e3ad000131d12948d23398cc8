@@ -1,0 +1,30 @@
+package erste_aufgabe;
+
+import java.util.ArrayList;
+
+public class DotCom {
+
+	private ArrayList<String> zellorte;
+	public void setZellorte(ArrayList<String> orte) {
+		zellorte = orte;
+	}
+
+	public String prüfDich(String benutzerEingabe) {
+		String ergebnis = "Vorbei";
+		int index = zellorte.indexOf(benutzerEingabe);
+		if (index >= 0) {
+			zellorte.remove(index);
+			if (zellorte.isEmpty()) {
+				ergebnis = "Versenkt";
+			} else {
+				ergebnis = "Treffer" ;
+			}
+		}
+		System.out.println(ergebnis);
+		
+		
+		return ergebnis;
+	}
+}
+
+

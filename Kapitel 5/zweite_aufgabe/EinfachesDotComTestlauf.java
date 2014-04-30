@@ -1,5 +1,6 @@
 package zweite_aufgabe;
-import erste_aufgabe.EinfachesDotCom;;
+
+import erste_aufgabe.EinfachesDotCom;
 
 public class EinfachesDotComTestlauf {
 	public static void main(String[] args) {
